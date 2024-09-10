@@ -1,0 +1,13 @@
+#immutable_var=(1,2,3,"hello",[1,2,3])
+#print(immutable_var)
+#print(immutable_var[4])
+#tuple_[1]=8
+#print(tuple_)#
+imutable_list=["chiken","goat","wolf","cow"]
+print(imutable_list)
+imutable_list.append("cat")
+print(imutable_list)
+imutable_list.extend("dog")
+print(imutable_list)
+imutable_list.remove("goat")
+print(imutable_list)
